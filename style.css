@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+  line-height: 1.6;
+  color: #222222;
+  background: #eeeeee;
+}
+
+a {
+  color: #0b3d91;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3 {
+  font-family: "Palatino Linotype", Palatino, serif;
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-size: 34px;
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 15px 0 5px 0;
+}
+
+header {
+  background: #0b3d91;
+  padding: 12px 20px;
+}
+
+.brand {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav {
+  margin-top: 6px;
+}
+
+nav a {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  display: inline-block;
+  color: white;
+  margin-right: 14px;
+  padding: 3px 0;
+}
+
+main {
+  max-width: 950px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border: 1px solid #bbbbbb;
+}
+
+section {
+  border-top: 1px solid #bbbbbb;
+  margin-top: 25px;
+  padding-top: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.row > * {
+  flex: 1 1 250px;
+}
+
+.row img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+figure {
+  margin: 0;
+}
+
+img.wide {
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+}
+
+.box {
+  border: 1px solid #bbbbbb;
+  color: #222222;
+  text-decoration: none;
+}
+
+.text {
+  padding: 10px 15px;
+}
+
+.tag {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: #555555;
+  margin: 0 0 5px 0;
+}
+
+.intro {
+  border: 1px solid #bbbbbb;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.strip {
+  border-top: 2px dashed #333333;
+  border-bottom: 2px dashed #333333;
+  text-align: center;
+  margin: 25px 0;
+  padding: 10px;
+}
+
+.strip h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.strip p {
+  margin: 5px 0 0 0;
+}
+
+.button {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  display: inline-block;
+  background: #0b3d91;
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  margin: 0 10px 10px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px 0;
+}
+
+th, td {
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: left;
+  vertical-align: top;
+  padding: 8px;
+  border: 1px solid #999999;
+}
+
+th {
+  background: #dde6f5;
+}
+
+form, input, select, textarea {
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 15px 0 5px 0;
+}
+
+input, select, textarea {
+  padding: 6px;
+  max-width: 100%;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+}
+
+.pick {
+  border: 1px solid #bbbbbb;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 12px;
+  cursor: pointer;
+}
+
+.pick input {
+  margin: 8px;
+}
+
+.pick span {
+  display: block;
+  font-family: "Palatino Linotype", Palatino, serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.pick small {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.pick input:checked + img {
+  outline: 5px solid #0b3d91;
+  outline-offset: -5px;
+}
+
+.chosen {
+  display: none;
+  background: #0b3d91;
+  color: white;
+  padding: 6px;
+  margin: 0 12px;
+}
+
+.pick input:checked ~ .chosen {
+  display: block;
+}
+
+footer {
+  max-width: 950px;
+  margin: 0 auto 20px auto;
+  padding: 0 20px;
+  font-size: 14px;
+  color: #444444;
+}
